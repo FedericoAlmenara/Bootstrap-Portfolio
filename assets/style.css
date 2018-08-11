@@ -1,0 +1,45 @@
+.nav-link{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}
+.navbar-brand{
+    list-style-type: none;
+    display: inline;
+    display: inline-flex;
+}
+.navbar-block{
+    display: block;
+    background-color: aquamarine;
+    font-size: 2em;
+    color: white;
+}
+body{
+    background-image: url(backgroundImage.png);
+}
+.container{
+    background-color: bisque;
+    display: flex;
+}
+.img-thumbnail{
+    flex-grow: 1;
+
+}
+.centered{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.center{
+     position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    background-color: black
+}
+.images{
+    resize: both;
+}
+.container{
+    margin-top: 5%;
+}
