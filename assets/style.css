@@ -10,7 +10,7 @@
 }
 .navbar-block{
     display: block;
-    background-color: aquamarine;
+    background-color: #666633;
     font-size: 2em;
     color: white;
 }
@@ -40,6 +40,11 @@ body{
 .images{
     resize: both;
 }
-.container{
-    margin-top: 5%;
+
+.navbar{
+    color: bisque;
+    border-bottom-color: #dc3545 3px solid;
+}
+.center{
+    color: white;
 }
